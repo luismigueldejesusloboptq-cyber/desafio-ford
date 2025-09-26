@@ -32,45 +32,47 @@
                     allowfullscreen></iframe>
             </div>
         </section>
-        <section class="table-compariosn-section">
-            <h2 class="section-title">Compare os Modelos</h2>
-            <div class="table-container">
-                <table>
-                    <thead>
-
-                        <th>Comparar</th>
-                        <th>Veículo</th>
-                        <th>Modelo Disponível</th>
-                        <th>Valor(a partir)</th>
-
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td><input type="checkbox" name="compare"></td>
-                            <td><img src="./img/XL Cabine.jpg" alt="Ranger Xl" class="car-image-table"></td>
-                            <td>XL Cabine Simples 2.2 Diesel 4x4 MT 2022</td>
-                            <td>R$ 183.850.00</td>
-                        </tr>
-                        <td><input type="checkbox" name="compare"></td>
-                        <td><img src="./img/xls 2.2 diesel.jpg" alt="Ranger XLS" class="car-image-table"></td>
-                        <td>XLS 2.2 Diesel 4x4 AT 2022</td>
-                        <td>R$ 289.990.00</td>
-                        </tr>
-                        <td><input type="checkbox" name="compare"></td>
-                        <td><img src="./img/storm.jpg" alt="Ranger storm" class="car-image-table"></td>
-                        <td>Storm 3.2 Diesel 4x4 AT 2022</td>
-                        <td>R$222.279.00</td>
-                    </tbody>
-                </table>
+        <section class="comparison-section">
+        <div class="cars-container">
+            <div class="car-card">
+                <img src="./img/XL Cabine.jpg" alt="Ranger XL" class="car-image">
+                <div class="car-info">
+                    <input type="checkbox" id="car1" name="compare" checked>
+                    <label for="car1">
+                        <strong>XL Cabine Simples 2.2 Diesel 4x4 MT 2022</strong>
+                        <span>Preço Sugerido: R$ 183.850</span>
+                    </label>
+                </div>
+                <div class="info-icon">i</div>
             </div>
-        </section>
-        </tr>
-        </tbody>
-        </table>
+
+            <div class="car-card">
+                <img src="./img/xls 2.2 diesel.jpg" alt="Ranger XLS" class="car-image">
+                <div class="car-info">
+                    <input type="checkbox" id="car2" name="compare">
+                    <label for="car2">
+                        <strong>XLS 2.2 Diesel 4x4 AT 2022</strong>
+                        <span>Preço Sugerido: R$ 289.990</span>
+                    </label>
+                </div>
+                <div class="info-icon">i</div>
+            </div>
+
+            <div class="car-card">
+                <img src="./img/storm.jpg" alt="Ranger Storm" class="car-image">
+                <div class="car-info">
+                    <input type="checkbox" id="car3" name="compare">
+                    <label for="car3">
+                        <strong>Storm 3.2 Diesel 4x4 AT 2022</strong>
+                        <span>Preço Sugerido: R$ 222.790</span>
+                    </label>
+                </div>
+                <div class="info-icon">i</div>
+            </div>
         </div>
-        <button class="compare-button">Comparar</button>
-        </section>
+
+        <button class="compare-button">Compare Carros</button>
+    </section>
     </main>
     <footer>
         <div class="footer-left">
