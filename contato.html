@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    </link>
+    <title>Lançamentos-Ford</title>
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <img class="logo" src="img/logo-ford-256.png" alt="logo da ford">
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="lançamento.html">Lançamento</a></li>
+                    <li><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="Logo-fantasma"></div>
+        </section>
+    </header>
+    <main>
+        <section class="contact-section">
+            <div class="form-wrapper">
+                
+                <div class="image-column">
+                    <img src="./img/xls 2.2 diesel.jpg" alt="Ford Ranger Vermelha" class="form-image">
+                </div>
+
+                <div class="form-column">
+                    <form action="#" method="POST" class="contact-form">
+                        <h2>Fale Conosco</h2>
+                        
+                        <div class="form-group">
+                            <input type="text" name="nome" class="form-input" placeholder="Nome completo*" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-input" placeholder="E-mail*" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="telefone" class="form-input" placeholder="Telefone*" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="tipo_contato" class="form-input" required>
+                                <option value="" disabled selected>Tipo do Contato*</option>
+                                <option value="elogio">Elogio</option>
+                                <option value="reclamacao">Reclamação</option>
+                                <option value="solicitacao">Solicitação</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensagem" class="form-input" placeholder="Mensagem*" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <span class="socia-text">Redes Sociais</span>
+            <div class="social-icons">
+                <img src="./img/youtube-squared-50.png" alt="icon-ytb">
+                <img src="./img/facebook-50.png" alt="icon-face">
+                <img src="./img/instagram-logo-50.png" alt="icon-insta">
+            </div>
+        </div>
+        <div class="footer-center">
+            <p>&copy; 2025 Ford. Todos os direitos reservados.</p>
+        </div>
+        <div class="footer-right">
+            <img src="./img/ford-96.png" alt="logo-ford-footer" class="footer-logo">
+        </div>
+    </footer>
+</body>
+
+</html>

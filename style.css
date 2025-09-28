@@ -204,7 +204,7 @@ footer {
     position: relative;
     width: 100%;
     max-width: 1600px;
-    padding-top: 50%;
+    padding-top: 40%;
     height: 0;
     overflow: hidden;
     background-color: #000;
@@ -256,6 +256,8 @@ footer {
     display: flex;
     align-items: flex-start; 
     gap: 8px; 
+    width: 100%;
+    min-height: 80px;
 }
 
 .car-info input[type="checkbox"] {
@@ -312,6 +314,31 @@ footer {
 .compare-button:hover {
     background-color: #001941;
 }
+
+.text-apresentation {
+    position: absolute;
+    top: auto; /* Remove a centralização vertical */
+    bottom: 20px; /* Posiciona a 20px da base */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza apenas horizontalmente */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%; /* Pode aumentar a largura um pouco */
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.text-apresentation h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
 
 
 footer p {
