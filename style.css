@@ -14,6 +14,7 @@ body {
     position: relative;
     align-items: center;
     padding: 20px 40px;
+    border-bottom: 1px solid #dddddd;
 }
 
 .header section {
@@ -38,8 +39,6 @@ main {
     gap: 25px;
     list-style: none;
     justify-content: center;
-
-
 }
 
 .nav-link {
@@ -72,7 +71,6 @@ main {
 }
 
 .car-caption {
-
     font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -86,8 +84,6 @@ main {
 .car-caption u {
     text-decoration: blue;
 }
-
-
 
 footer {
     background-color: #001941;
@@ -112,6 +108,32 @@ footer {
     flex-basis: 33%;
 }
 
+.footer-right {
+    flex-grow: 1;
+    text-align: right;
+    flex-basis: 33%;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+
+footer-center {
+    flex-grow: 1;
+    text-align: center;
+    min-width: 200px;
+}
+
+.footer-center p {
+    display: flex;
+    text-align: justify;
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: arial;
+}
+
 .social-text {
     font-size: 20rem;
     font-weight: bold;
@@ -133,20 +155,6 @@ footer {
     opacity: 0.7;
 }
 
-.footer-center {
-    flex-grow: 1;
-    text-align: center;
-    min-width: 200px;
-}
-
-.footer-center p {
-    display: flex;
-    text-align: justify;
-    margin: 0;
-    font-size: 1.4rem;
-    font-family: arial;
-}
-
 .icones-redes {
     display: flex;
     gap: 0px;
@@ -154,18 +162,6 @@ footer {
 
 .icones-redes img:hover {
     opacity: 0.7;
-}
-
-.footer-right {
-    flex-grow: 1;
-    text-align: right;
-    flex-basis: 33%;
-}
-
-.footer-logo {
-    width: 80px;
-    height: auto;
-    vertical-align: middle;
 }
 
 .main-page2 {
@@ -186,9 +182,6 @@ footer {
     width: 100%;
     overflow: hidden;
 }
-
-
-
 
 .video-container {
     position: relative;
@@ -242,20 +235,39 @@ footer {
     font-family: Arial, sans-serif;
 }
 
-.cars-container {
-    display: flex; 
-    justify-content: center; 
-    gap: 30px; 
-    flex-wrap: wrap; 
+.comparison-table {
     width: 100%;
-    margin-bottom: 30px; 
+    max-width: 1200px; 
+    border-collapse: collapse; 
+    margin-bottom: 30px;
 }
 
-.car-card {
-    display: grid; 
-    grid-template-rows: auto 1fr; 
-    height: 100%;
-    position: relative;
+.comparison-table td {
+    width: 33.33%; 
+    vertical-align: top;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.car-image-wrapper {
+    position: relative; 
+    margin-bottom: 15px;
+}
+
+.info-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #888;
+    cursor: pointer;
 }
 
 .car-image {
@@ -270,7 +282,6 @@ footer {
     gap: 8px;
     width: 100%;
 }
-
 
 .car-info input[type="checkbox"] {
     margin-top: 3px;
@@ -415,6 +426,7 @@ footer p {
     background-color: #001941; 
 }
 
+<<<<<<< HEAD
 @media (max-width: 414px) {
     
     body {
@@ -497,3 +509,9 @@ footer p {
         justify-content: center; 
     }
 }
+=======
+.social-icons a {
+    text-decoration: none;
+}
+
+>>>>>>> 5dd3a9880988a11e4829601a96c0dcef9bc4c173
