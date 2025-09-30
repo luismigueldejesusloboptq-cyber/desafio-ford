@@ -33,11 +33,6 @@ main {
     height: auto;
 }
 
-.logo-fantasma {
-    width: 100px;
-
-}
-
 .nav-list {
     display: flex;
     gap: 25px;
@@ -127,7 +122,11 @@ footer {
 
 .social-icons img {
     width: 24px;
-    height: 24px;
+    height: 24px;  
+}
+
+.social-icons a{
+    text-decoration: none;
 }
 
 .social-icons img:hover {
@@ -155,7 +154,6 @@ footer {
 
 .icones-redes img:hover {
     opacity: 0.7;
-
 }
 
 .footer-right {
@@ -220,6 +218,21 @@ footer {
 }
 
 
+.texto-abaixo-video {
+    text-align: center;
+    padding: 30px 20px; 
+ 
+}
+
+.texto-abaixo-video p {
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem; 
+    color: #333; 
+    max-width: 700px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
 
 .comparison-section {
     display: flex;
@@ -371,13 +384,17 @@ footer p {
 
 
 .form-group input,
-.form-group select {
+.form-group select{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box; 
     font-size: 14px;
+}
+
+.form-group textarea {
+    width: 100%;
 }
 
 .submit-btn {
@@ -396,4 +413,87 @@ footer p {
 
 .submit-btn:hover {
     background-color: #001941; 
+}
+
+@media (max-width: 414px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        padding: 15px; 
+    }
+
+    .header section {
+        grid-template-columns: 1fr; 
+        gap: 15px; 
+        justify-items: center; 
+    }
+
+    .nav-list {
+        padding: 0; 
+        gap: 20px; 
+    }
+    
+    .nav-link {
+        font-size: 18px; 
+    }
+
+    .car-container {
+        padding: 0 10px;
+    }
+
+    .car-caption {
+        font-size: 1.2rem; 
+    }
+
+    .video-container {
+        padding-top: 56.25%; 
+    }
+
+    .cars-container {
+        flex-direction: column;
+        align-items: center; 
+        gap: 40px; 
+    }
+    
+    .car-card {
+        max-width: 320px; 
+    }
+
+    
+    .contact-section {
+        padding: 30px 15px;
+    }
+
+    .form-wrapper {
+        flex-direction: column; 
+        gap: 30px;
+    }
+
+    footer {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        justify-content: center; 
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .footer-left {
+        flex-direction: column;
+    }
+
+    .social-text {
+        font-size: 1.2rem; 
+    }
+
+    .footer-center p {
+        font-size: 1rem; 
+        justify-content: center; 
+    }
 }
