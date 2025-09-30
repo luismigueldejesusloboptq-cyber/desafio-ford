@@ -425,8 +425,6 @@ footer p {
 .submit-btn:hover {
     background-color: #001941; 
 }
-
-<<<<<<< HEAD
 @media (max-width: 414px) {
     
     body {
@@ -509,9 +507,8 @@ footer p {
         justify-content: center; 
     }
 }
-=======
 .social-icons a {
     text-decoration: none;
 }
 
->>>>>>> 5dd3a9880988a11e4829601a96c0dcef9bc4c173
+
